@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <style>
+    body{
+        background-color: rgb(85, 75, 75);
+        max-width: 1300px;
+        max-height: 700px;
+        overflow-y: initial;
+        overflow-X: hidden;
+    }
+
+                /*     Animação      */
+    div#container{
+        display: flex;
+        justify-content: center;
+    }
+    img#estrelaM{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 450px;
+        margin-top: -350px;
+        width: 150px;
+        height: 150px;
+        animation: starAnimation 5s ease-in infinite;
+    }
+    img#estrelaF{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -390px;
+        margin-top: -650px;
+        width: 150px;
+        height: 150px;
+        animation: starRotate 5s ease-in infinite;
+    }
+    @keyframes starAnimation{
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            rotate: 360deg;
+        }
+        100%{
+            transform: scale(0);
+        }
+    }
+    @keyframes starRotate{
+        to{
+            transform:rotate(360deg) ;
+        }
+    }
+                    /*       Fim da animação     */
+
+    div#container2{
+        display: flex;
+        justify-content: center;
+    }
+    img#softLua{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 550px;
+        margin-top: -700px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softEstrela{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 450px;
+        margin-top: -730px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softBoleto{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 150px;
+        margin-top: -190px;
+        width: 250px;
+        height: 250px;
+        z-index: 2;         
+    }
+    img#softCigarrete{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 250px;
+        margin-top: -700px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softCafe{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -650px;
+        margin-top: -700px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softCoca{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 190px;
+        margin-top: -600px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softVinho{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 220px;
+        margin-top: -400px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softJarro{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 420px;
+        margin-top: -500px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softXicara{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -400px;
+        margin-top: -200px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softXicara2{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -200px;
+        margin-top: -20px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softPintura{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -420px;
+        margin-top: -400px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softCard{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -320px;
+        margin-top: -300px;
+        width: 150px;
+        height: 150px;
+        z-index:2;
+    }
+    img#softChiclete{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -600px;
+        margin-top: -300px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softBalao{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 20px;
+        margin-top: -10px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softCar{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -300px;
+        margin-top: -10px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softEyes{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 150px;
+        margin-top: -10px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softCigarrete2{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -350px;
+        margin-top: -550px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softRecort{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 400px;
+        margin-top: -250px;
+        width: 300px;
+        height: 300px;
+    }
+    img#softRecort2{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -600px;
+        margin-top: -150px;
+        width: 250px;
+        height: 250px;
+    }
+    img#softRecort3{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -600px;
+        margin-top: -600px;
+        width: 250px;
+        height: 250px;
+    }
+    img#softVinho2{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -300px;
+        margin-top: -10px;
+        width: 150px;
+        height: 150px;
+    }
+    img#softRecort4{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: -350px;
+        width: 150px;
+        height: 150px;
+        z-index: 2;
+    }
+    img#softRecort6{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: -350px;
+        width: 150px;
+        height: 150px;
+        z-index: 2;
+    }
+    img#softRecort5{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: -690px;
+        width: 150px;
+        height: 150px;
+        rotate: 30deg;
+        z-index: 2;
+    }
+    img#softRecort7{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: -170px;
+        margin-top: -750px;
+        width: 150px;
+        height: 150px;
+        z-index: 1;
+    }
+    img#softRecort8{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        margin-left: 100px;
+        margin-top: -690px;
+        width: 150px;
+        height: 150px;
+        z-index: 1;
+    }
+    header{
+        display: flex;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: auto;
+        background-color: rgb(129, 117, 117);
+        border-radius: 25px;
+        box-shadow: 15px 10px 5px rgba(0, 0, 0, 0.208);
+        width: 550px;
+        height: 700px;
+        /*  z-index serve para defenir qual elemente vai ficar por cima do outro */
+        z-index: 1;
+    }
+    div#form1{
+        display: flex;
+        position: absolute;
+        border-radius:100%;
+        background: black;
+        margin-top: 40px;
+        margin-right: 350px;
+        width: 150px;
+        height: 150px;  
+    }
+    img#profileImg{
+        display: flex;
+        position: absolute;
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    div#name{
+        display: flex;
+        position: absolute;
+        margin-top: 50px;
+        margin-right: 152px;                                                                                   
+        width: 1px;
+        height: 1px;
+    }
+    p#idade{
+        display: flex;
+        position: absolute;
+        margin-top: 97px;
+        margin-left: -77px;
+        width: 1px;
+        height: 1px;
+    }
+    div#titleHb{
+        display: flex;
+        position: absolute;
+        width: 1px;
+        height: 1px;
+    }
+    h1#titleText{
+        display: flex;
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -45px;
+        width: 1px;
+        height: 1px;
+    }
+    p#hobbies{
+        display: flex;
+        position: absolute;
+        margin-top: 230px;
+        margin-left: -250px;
+        width: 500px;
+        height: 120px;
+        border-radius: 15px 15px 15px;
+        background-color: rgb(91, 65, 65);    
+        box-shadow: 10px 10px 10px rgba(79, 63, 63, 0.607); 
+        text-align:center;
+        font-size: 14pt;
+    }
+    h1#spotify{
+        display: flex;
+        position: absolute;
+        margin-top: 370px;
+        margin-left: -39px;
+        width: 1px;
+        height: 1px;
+    }
+    img#spotifyImg{
+        display: flex;
+        position: absolute;
+        border-radius: 15px;
+        margin-top: 400px;
+        margin-left: -100px;
+        width: 200px;
+        height: 200px;  
+        background:black;
+    }
+    img#btnPlay{
+        display: flex;
+        position: absolute;
+        margin-top: 620px;
+        margin-left: -30px;
+        width: 50px;
+        height: 50px;
+        z-index: 1;
+        transform: normal ease 10s;
+    }
+    img#btnPlay:active{
+        transform: scale(0.90);
+    }
+    img#btnPause{
+        display: flex;
+        position: absolute;
+        margin-top: 620px;
+        margin-left: -30px;
+        width: 0px;
+        height: 0px;
+    }
+    img#btnPause:active{
+        transform: scale(0.70);
+    }
+    img#btnNext{
+        display: flex;
+        position: absolute;
+        margin-top: 616px;
+        margin-left: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    img#btnNext:active{
+        transform: scale(0.70);
+    }
+    img#btnBack{
+        display: flex;
+        position: absolute;
+        margin-top: 616px;
+        margin-left: -90px;
+        width: 50px;
+        height: 50px;
+    }
+    img#btnBack:active{
+        transform: scale(0.90);
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top:30px;
+        font-size: larger;
+        color: #F1DBBF;
+    }
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+    </header>
+
+        <section>
+
+            <!-- Perfil -->
+            <div id="form1">
+                <img src="profileImg.jpg" id="profileImg"></img>
+            </div>
+            
+            <!-- Name -->
+            <div id="name">
+            <h1>
+                joss
+            </h1>
+            </div>
+
+            <!-- Idade -->
+            <div>
+            <p id="idade">
+                18y
+            </p>
+            </div>
+
+            <!-- Biografia -->
+            <div>
+            <p id="biografia">
+            </p>
+            </div>
+
+            <!-- Title hb -->
+            <div id="titleHb">
+            <h1 id="titleText">
+            </h1>
+            </div>
+
+            <!-- hobbies -->
+            <div>
+            <p id="hobbies">
+                Fiz essa pagina pra treinar e acabei gostando muito, ainda tá meio feio mas eu tô tentando melhorar, Meu maior desejo é programar um jogo dos meus desenhos antigos que eu mais gostava. E não chegar a lançar mas fazer por puro prazer e vontade talvez somente para mim
+            </p>
+            </div>
+
+            <!-- Spotify -->
+            <div>
+                <h1 id="spotify">Spotify</h1>
+            </div>
+
+            <!-- Imagem Da Música -->
+            <div>
+                <img src="spotifyImg.jpg" id="spotifyImg">
+            </div>
+
+            <!-- Botão de Play-->
+            <div>
+                <img src="btnPlay.png" id="btnPlay" onclick="clicar()">
+            </div>
+            <!-- Botão de Pausa -->
+            <div>
+                <img src="btnPause.png" id="btnPause" onclick="clicar()">
+            </div>
+            <!-- botão de Voltar -->
+            <div>
+                <img src="btnBack.png" id="btnBack">
+            </div>
+            <!-- botão de Próximo -->
+            <div>
+                <img src="btnNext.png" id="btnNext">
+            </div>
+        </section>
+
+        <!-- Animation Estrela -->
+        <div id="container">
+            <div>
+                <img src="estrelaMario.png" id="estrelaM">
+            </div>
+
+            <div>
+            <img src="estrelaFofa.png" id="estrelaF">
+            </div>
+        </div>
+
+        <!-- Decorção -->
+        <div id="container2">
+            <div>
+                <img src="softEstrela.png" id="softEstrela">
+            </div>
+            <div>
+                <img src="softLua.png" id="softLua">
+            </div>
+            <div>
+                <img src="softboleto.png" id="softBoleto">
+            </div>
+            <div>
+                <img src="softCafe.png" id="softCafe">
+            </div>
+            <div>
+                <img src="softCigarrete.png" id="softCigarrete"> 
+            </div>
+            <div>
+                <img src="softCoca.png" id="softCoca">
+            </div>
+            <div>
+                <img src="softVinho.png" id="softVinho">
+            </div>
+            <div>
+                <img src="softJarro.png" id="softJarro">
+            </div>
+            <div>
+                <img src="softXicara.png" id="softXicara">
+            </div>
+            <div>
+                <img src="softXicara2.png" id="softXicara2">
+            </div>
+            <div>
+                <img src="softPintura.png" id="softPintura">
+            </div>
+            <div>
+                <img src="softCard.png" id="softCard">
+            </div>
+            <div>
+                <img src="softChiclete.png" id="softChiclete">
+            </div>
+            <div>
+                <img src="softBalao.png" id="softBalao">
+            </div>
+            <div>
+                <img src="softCar.png" id="softCar">
+            </div>
+            <div>
+                <img src="softCigarrete2.png" id="softCigarrete2">
+            </div>
+            <div>
+                <img src="softEyes.png" id="softEyes">
+            </div>
+            <div>
+                <img src="softRecort2.png" id="softRecort2">
+            </div>
+            <div>
+                <img src="softRecort3.png" id="softRecort3">
+            </div>
+            <div>
+                <img src="softrecort.png" id="softRecort">
+            </div>
+            <div>
+                <img src="softVinho2.png" id="softVinho2">
+            </div>
+            <div>
+                <img src="softRecort4.png" id="softRecort4">
+            </div>
+            <div>
+                <img src="softRecort6.png" id="softRecort6">
+            </div>
+            <div>
+                <img src="softRecort5.png" id="softRecort5"> 
+            </div>
+            <div>
+                <img src="softRecort7.png" id="softRecort7">
+            </div>
+            <div>
+                <img src="softRecort8.png" id="softRecort8">
+            </div>
+        </div>
+
+            <footer>
+                @joss
+            </footer>           
+
+    <script>
+        function clicar(){
+        var play = document.getElementById("btnPlay")
+        var pause = document.getElementById("btnPause")
+        var back = document.getElementById("")
+        var next = document.getElementById("")
+
+        // Animation Click
+        // Alternado de Play para Pause
+            play.style.transform = "normal 0.2s ease";
+
+            play.style.width = "0px";
+            pause.style.width = "50px";
+            pause.style.height = "50px";
+
+        pause.onclick = function(){
+            pause.style.transform = "normal 0.2s ease";
+            pause.style.width = "0px";
+            play.style.width = "50px"
+            play.style.height ="50px"
+        }
+
+        // Botão de Volta, Para voltar ao inicio da Música
+
+        // Botão de Próximo, Sem função pois Não tem próxima Música
+
+        }
+    </script>
+
+</body>
+</html>
